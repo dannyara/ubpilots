@@ -312,3 +312,10 @@ a:focus, a:hover, a:active {
     background-color: #1a252f;
     border-color: #1a252f;
 }
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background-color: #005bbb;
+}
+
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background-color: #005bbb;
+}

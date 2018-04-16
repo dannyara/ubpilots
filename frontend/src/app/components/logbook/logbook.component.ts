@@ -22,6 +22,7 @@ export class LogbookComponent implements OnInit, AfterViewInit {
   
   public isAdmin = false;
   public isSignedIn = false;
+  public i = 0;
   public  columnsDef = ['select', 'date', 'pic', 'sic' , 'ac', 'dep', 'dest', 'imc', 'night', 'total'];
   private dataSource:MatTableDataSource<LogEntry>;
   private logsDataRetrievedEvent = new EventEmitter<number> ();
