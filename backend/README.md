@@ -17,6 +17,7 @@
 Run `npm install` - installs all dependencies contained in package.json
 
 ### Build
+Comment out line "seed();" on line 24 in app.js
 Run `npm run build` - Compiles JS files in the /src directory from ES6 to browser ready ES5 and writes them to /dist.
 
 ### Start Dev Server
